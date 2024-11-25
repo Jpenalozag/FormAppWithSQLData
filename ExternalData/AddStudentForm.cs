@@ -17,12 +17,12 @@ namespace ExternalData
             InitializeComponent();
         }
 
-        public int ID
+        public int Id
         {
             get { return int.Parse(nudID.Value.ToString()); }
         }
 
-        public string FirstName
+        public string FName
         {
             get { return tbFirstName.Text; }
         }
